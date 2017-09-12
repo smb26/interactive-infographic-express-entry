@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'futura condensed';
+    src: url('futura_condensed_medium-webfont.woff2') format('woff2'),
+         url('futura_condensed_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'futura';
+    src: url('futura_medium_0-webfont.woff2') format('woff2'),
+         url('futura_medium_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body { background: #f6f7cd;}
+img { max-width:100%; height:auto; transition: all .2s ease-in-out;   }
+
+.main-container { width:1200px; margin:0 auto; position: relative; }
+.square { cursor:pointer; position: absolute;  transition: all .2s ease-in-out; z-index:9;}
+
+.num3 { width:220px; top:40.26%; left:42.8%; }
+.num5 { width:568px; top: 62.6%; left: 13.7%;}
+.num7 { width: 171px; top: 62.6%; left: 76.9%; padding-bottom: 15px; background: #f6f7cd; padding-top: 1px; overflow: hidden; }
+.num7 .exception { min-width: 176px; max-width: 105%; }
+.num9 { width:177px; bottom:10.5%; left:61.52%;}
+.final { bottom: 8.3%; width: 335px; left: 6.4%; }
+
+.reduce-opacity { opacity: 0.2; transition: all .2s ease-in-out; }
+
+.modal-lg { max-width: 1200px; }
+.modal-content { background: url(../img/modal/popup-bg.png) no-repeat top center; background-size: cover; border: none; min-height: 770px; padding: 70px; box-sizing: border-box; }
+.modal-header,
+.modal-footer { border:none; padding:0;}
+.modal-body { padding:0; max-height: 400px; overflow: auto; padding-right: 30px; padding-left: 40px;}
+.modal-title { height: 150px; color:#124D66; text-align: center; font-size: 100px; font-family: "futura condensed"; position: relative; width: 100%; text-shadow: -2px -3px 0px rgba(235, 86, 83, 1); text-transform: uppercase;}
+.modal-text { font-size:26px; font-weight: bold; font-family: "futura"; text-align:justify; margin-bottom: 2.2rem;}
+.modal-icon { position: absolute; bottom: 0; right: 0; max-width: 180px;}
+.modal-icon.relative { position: relative; float: right;} 
+
+.source { font-size: 14px; font-family: "futura condensed"; position: absolute; bottom: 50px; font-style: italic; right:10%; color:#000;}
+
+.ammapDescriptionWindow { max-width: 190px; background: #fff; padding: 10px; }
+.ammapDescriptionTitle {  font-size: 13px;  font-weight: bold;  margin-bottom: 15px;}
+.ammapDescriptionText { max-height: 200px; overflow: auto;
+}
+.ammapDescriptionText.amcharts-description-text-div,
+.ammapDescriptionTitle,
+.ammapDescriptionText.amcharts-description-text-div a { color:#000; max-width: 95%; font-family: "futura";}
+
+.square.animate,
+.square:hover { transform: scale(1.15); }
+
+@media (max-width: 1199px) {
+    .container { width:100%; }
+}

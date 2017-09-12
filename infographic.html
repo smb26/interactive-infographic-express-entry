@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Infographic</title>
+		<meta name="description" content="Infographic made by Dat and Sarah for UX course" />
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"
+		
+		<!-- amCharts javascript sources -->
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/maps/js/canadaLow.js"></script>
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/ammap.js"></script>
+
+		<script type="text/javascript" src="./js/chart.js"></script>
+		<script type="text/javascript" src="./js/map.js"></script>
+		
+		<link rel="stylesheet" href="./css/main.css?v2">
+	      
+    </head>
+    <body>
+        <main>
+            <div class="main-container">
+                <a class="square num3" data-toggle="modal" data-target="#modal1">
+                    <img src="./img/squares/num3.png"></img>
+                </a>
+                <div class="modal fade bd-example-modal-lg" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                    	<h1 class="modal-title">Express Entry</h1>
+                      </div>
+                      <div class="modal-body">
+                        <p class="modal-text">
+                            Express Entry System is known as the most promising and applicable for International Student who wants to become a Permanent Resident of Canada (and earn Canada Citizenship later on).
+                        </p>
+                        <p class="modal-text">Express Entry is a points-based system used to manage and sorting applications for permanent residence (PR) from several immigration programs.</p>
+                        <img src="./img/modal/icon1.png" class="modal-icon"></img>
+                      </div>
+                      <div class="modal-footer">
+                    	
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+                <a class="square num5" data-toggle="modal" data-target="#modal2">
+                    <img src="./img/squares/num5.png"></img>
+                </a>
+                <div class="modal fade bd-example-modal-lg" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+    					<h1 class="modal-title" style="font-size:80px">Comprehensive Ranking system</h1>
+                      </div>
+                      <div class="modal-body">
+                        <p class="modal-text">
+                            All candidates from all immigration programs under Express Entry stream will be put in to a pool and will be sorted base on their total point in Comprehensive Ranking System (CRS point).
+                        </p>
+                        <p class="modal-text">
+                            There are a lot of factors that affect on your CRS point such as age, education, skill, work experience, language ability, etc. Each factor has different amount of points and the number of point you can get from a factor depends on your "level".
+
+							I.e: You get 150 points if you have a PhD degree, but you only get 120 points if you only have Bachelor degree.
+                        </p>
+                        <p class="modal-text">
+                            The factor that has the largest CRS points (600 out of total 1,200) is being nominated by a Province or Territory via Province Nominate Program (PNP).
+                        </p>
+                        <img src="./img/modal/icon5.png" class="modal-icon relative"></img>
+                      </div>
+                      <div class="modal-footer"></div>
+                    </div>
+                  </div>
+                </div>
+               
+                <a class="square num7" data-toggle="modal" data-target="#modal3">
+                    <img class="exception" src="./img/squares/num7.png"></img>
+                </a>
+                <div class="modal fade bd-example-modal-lg" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header"><h1 class="modal-title">Province Nominate Program</h1></div>
+                      <div class="modal-body" >
+                		<div id="map" style="width: 100%; height: 400px;"></div>
+                      </div>
+                      <div class="modal-footer"></div>
+                    </div>
+                  </div>
+                </div>
+               
+                <a class="square num9" data-toggle="modal" data-target="#modal4">
+                    <img src="./img/squares/num9.png?v2"></img>
+                </a>
+                <div class="modal fade bd-example-modal-lg" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                      	<h1 class="modal-title">Invitation to Apply</h1>
+                      </div>
+                      <div class="modal-body">
+                      	<p class="modal-text">Almost twice a month, the government selects the highest-ranking candidates from the pool and invite them to apply for permanent resident status by sending them the Invitation to Apply (ITA) letter.</p>
+                        <p class="modal-text">Because this is the points-based system, therefore, the more points you have, the higher chance you get to receive the ITA letter. Below is the chart of the CRS cut-off point and number of ITA letter was issued from July 2016 to June 2017</p>
+                        <div id="chartdiv" style="width: 100%; height: 400px;" ></div>
+                      </div>
+                      <div class="modal-footer"></div>
+                    </div>
+                  </div>
+                </div>
+                
+                <a class="square final" data-toggle="modal" data-target="#modal-final">
+                    <img src="./img/squares/final.png?v2"></img>
+                </a>
+                <div class="modal fade bd-example-modal-lg" id="modal-final" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                      	<h1 class="modal-title">Congratulations</h1>
+                      </div>
+                      <div class="modal-body" style="overflow:visible">
+                        <p class="modal-text">Now, you are a Permanent Resident of Canada. You have your health care coverage, you can live and work anywhere in Canada, you can come and leave Canada every time you want!
+						            And you can apply for Citizenship too.</p>
+						            <p class="modal-text">But it's another journey and we will tell you that story in another infographic!</p>
+                        <img src="./img/modal/icon-final.png" class="modal-icon" style="max-width:250px; bottom:-44px"></img>
+                      </div>
+                      <div class="modal-footer"></div>
+                    </div>
+                  </div>
+                </div>
+                <img class="infographic" src="./img/basic-infographic-final.png?v3"></img>
+                <a href='http://www.cic.gc.ca/english/index.asp' target='_blank' class="source">(Source: Immigration, Refugees and Citizenship Canada website)</a>
+            </div>
+        </main>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./js/main.js"></script>
+    </body>
+</html>
