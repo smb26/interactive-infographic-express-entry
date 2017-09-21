@@ -1,7 +1,7 @@
 
 ## The World needs more Canada! Your PR Journey starts here!
 
-![Final Infographic]({{site.baseurl}}//final-infographic.png)
+![Final Infographic](final-infographic.png)
 
 For the final project of the course User Interface Design Principles, the students had the opportunity to choose between making an animation, an interactive data-set or an infographic. 
 
@@ -12,13 +12,13 @@ As two international students, me and my classmate, Tat Dat Hoang, we decided to
 
 After the information is gathered and filtered, we decided that we wanted to our infographic to have a ludic feel of a boardgame board, to contrast with the serious information presented.
 
-![Board game images used as reference]({{site.baseurl}}//inspiracao-web.png)
+![Board game images used as reference](inspiracao-web.png)
 
 While the final design was made by Dat using resources from websites like freepik, I was responsible for the interaction, adding animations on hover and data-visualization api like google maps api and amcharts.
 
-![Popup example]({{site.baseurl}}//popup-example.png)
-![Map printscreen]({{site.baseurl}}//map.png)
-![Graphic made with amcharts]({{site.baseurl}}//graphic.png)
+![Popup example](popup-example.png)
+![Map printscreen](map.png)
+![Graphic made with amcharts](graphic.png)
 
 
 Notes:
