@@ -10,15 +10,10 @@ As two international students, me and my classmate, Tat Dat Hoang, we decided to
 
 After the information is gathered and filtered, we decided that we wanted to our infographic to have a ludic feel of a boardgame board, to contrast with the serious information presented.
 
-
-
+![Board game images used as reference](https://github.com/smb26/interactive-infographic-express-entry/inspiracao-web.png)
 
 
 
 Notes:
 (1) _Economic immigrants are people selected for their skills and ability to contribute to Canada's economy, including skilled workers, business immigrants, provincial and territorial nominees and live-in caregivers._
 Font: [https://www.asiapacific.ca/statistics/immigration/arrivals/immigration-category-economic-immigrants](https://www.asiapacific.ca/statistics/immigration/arrivals/immigration-category-economic-immigrants)
-
-
-
-
